@@ -20,6 +20,9 @@ function App() {
               <Link to="/about">このサイトについて</Link>
             </li>
             <li>
+              <Link to="/ai-development">AI開発ガイド</Link>
+            </li>
+            <li>
               <Link to="/download">ダウンロード</Link>
             </li>
           </ul>
@@ -29,6 +32,7 @@ function App() {
             <Route path="/" element={<MarkdownViewer filePath="/docs/home.md" />} />
             <Route path="/sample" element={<MarkdownViewer filePath="/docs/sample.md" />} />
             <Route path="/about" element={<MarkdownViewer filePath="/docs/about.md" />} />
+            <Route path="/ai-development" element={<MarkdownViewer filePath="/docs/ai-development.md" />} />
             <Route path="/download" element={<DownloadPage />} />
           </Routes>
         </main>
