@@ -4,7 +4,9 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(gh repo edit:*)",
-      "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" repo view Goodbye-Antwerpbule/ojt)"
+      "Bash(\"C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe\" repo view Goodbye-Antwerpbule/ojt)",
+      "Bash(git push:*)",
+      "Bash(npx vercel:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
