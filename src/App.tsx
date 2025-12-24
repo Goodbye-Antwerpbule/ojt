@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import { MarkdownViewer } from './components/MarkdownViewer'
+import { DownloadPage } from './components/DownloadPage'
 import './App.css'
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
             <li>
               <Link to="/about">このサイトについて</Link>
             </li>
+            <li>
+              <Link to="/download">ダウンロード</Link>
+            </li>
           </ul>
         </nav>
         <main className="content">
@@ -25,6 +29,7 @@ function App() {
             <Route path="/" element={<MarkdownViewer filePath="/docs/home.md" />} />
             <Route path="/sample" element={<MarkdownViewer filePath="/docs/sample.md" />} />
             <Route path="/about" element={<MarkdownViewer filePath="/docs/about.md" />} />
+            <Route path="/download" element={<DownloadPage />} />
           </Routes>
         </main>
       </div>

@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "name": "example-data.csv",
+      "path": "/dl/example-data.csv"
+    },
+    {
+      "name": "readme.txt",
+      "path": "/dl/readme.txt"
+    },
+    {
+      "name": "ojt.pptx",
+      "path": "/dl/ojt.pptx"
+    },
+    {
+      "name": "ojt.xlsx",
+      "path": "/dl/ojt.txt"
+    }
+  ]
+}
